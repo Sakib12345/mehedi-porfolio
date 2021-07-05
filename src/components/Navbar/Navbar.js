@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
             <div class="container-fluid">
-                <img src={logo} className="ml-5 py-2" style={{width:"220px"}} alt="logo"/>
+                <img src={logo} className=" py-2" style={{width:"220px", marginLeft:"100px"}} alt="logo"/>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,6 +19,9 @@ const Navbar = () => {
                         </li>
                         <li class="nav-item pl-5">
                             <a class="nav-link" href="/">Services</a>
+                        </li>
+                        <li class="nav-item pl-5">
+                            <a class="nav-link" href="/">Skills</a>
                         </li>
                         <li class="nav-item pl-5">
                             <a class="nav-link" href="/">About</a>
